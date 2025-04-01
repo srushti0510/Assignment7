@@ -1,0 +1,9 @@
+version: '3'
+services:
+  qr-code-generator:
+    build: .
+    container_name: qr-generator
+    volumes:
+      - ./output_qr_codes:/app/qr_codes
+    environment:
+      - QR_DATA_URL=https://github.com/srushti0510

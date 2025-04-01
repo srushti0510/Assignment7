@@ -1,0 +1,4 @@
+qrcode[pil]
+pillow
+python-dotenv
+validators
